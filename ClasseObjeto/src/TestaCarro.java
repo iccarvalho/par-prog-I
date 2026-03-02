@@ -2,18 +2,17 @@ public class TestaCarro {
     public static void main(String[] args){
         // play -> compila o código em .class através do JDK e roda o código com JVM
 
-        Carro obj1 = new Carro();
-        obj1.marca = "Fiat";
-        obj1.modelo = "Uno";
-        obj1.velocidade = 0;
-        obj1.motor = false;
-        System.out.println(obj1.toString());
+        Carro carro1 = new Carro("Fiat", "Uno", 0, false);
+        carro1.ligar();
+        carro1.acelerar(80);
+        carro1.frear(60);
+        carro1.desligar();
 
-        Carro obj2 = new Carro();
-        obj2.marca = "GM";
-        obj2.modelo = "Onix";
-        obj2.velocidade = 0;
-        obj2.motor = false;
-        System.out.println(obj2.toString());
+        Carro carro2 = new Carro("Ford", "Mustang", 0, false);
+        carro2.ligar();
+        carro2.acelerar(150);
+        carro2.frear(60);
+        carro2.frear(100);
+        carro2.desligar();
     }
 }
