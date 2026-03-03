@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="constructor e métodos">
+      <change afterPath="$PROJECT_DIR$/exercicios/exercicios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClasseObjeto/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClasseObjeto/src/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClasseObjeto/src/TestaCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClasseObjeto/src/TestaCarro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "iccarvalho"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iccarvalho&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/iccarvalho/par-prog-I.git",
-    "accountId": "c2fb8e06-04ef-4df9-b23f-b31480b11eb7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iccarvalho/par-prog-I.git&quot;,
+    &quot;accountId&quot;: &quot;c2fb8e06-04ef-4df9-b23f-b31480b11eb7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,6 +48,9 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.TestaCarro.executor": "Run",
+    "Application.TestaConta.executor": "Run",
+    "Application.TestaPlacar.executor": "Run",
+    "Application.TestaStreaming.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -85,9 +87,22 @@
       <updated>1771977930628</updated>
       <workItem from="1771977943312" duration="3300000" />
     </task>
+    <task id="LOCAL-00001" summary="constructor e métodos">
+      <option name="closed" value="true" />
+      <created>1772480141488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772480141488</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="constructor e métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="constructor e métodos" />
   </component>
 </project>
