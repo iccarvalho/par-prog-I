@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="constructor e métodos">
-      <change afterPath="$PROJECT_DIR$/exercicios/exercicios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,7 @@
     "Application.TestaCarro.executor": "Run",
     "Application.TestaConta.executor": "Run",
     "Application.TestaPlacar.executor": "Run",
+    "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -64,17 +66,23 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Usuários/26028/IdeaProjects/par-prog-I/ClasseObjeto/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Usuários\26028\IdeaProjects\par-prog-I\exercicio\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771977930628</updated>
       <workItem from="1771977943312" duration="3300000" />
+      <workItem from="1772582912234" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="constructor e métodos">
       <option name="closed" value="true" />
@@ -104,5 +113,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="constructor e métodos" />
     <option name="LAST_COMMIT_MESSAGE" value="constructor e métodos" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
