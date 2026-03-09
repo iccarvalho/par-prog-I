@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="encapsulamento">
+    <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="Lista001">
+      <change afterPath="$PROJECT_DIR$/Lista002/Lista002.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/exercicios.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +30,12 @@
     &quot;assignee&quot;: &quot;iccarvalho&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/iccarvalho/par-prog-I.git",
-    "accountId": "b8d86fb8-c551-4a6b-bcb1-4c17e33af4c1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iccarvalho/par-prog-I.git&quot;,
+    &quot;accountId&quot;: &quot;b8d86fb8-c551-4a6b-bcb1-4c17e33af4c1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,6 +49,7 @@
     "Application.Main.executor": "Run",
     "Application.TestaCarro.executor": "Run",
     "Application.TestaConta.executor": "Run",
+    "Application.TestaDrone.executor": "Run",
     "Application.TestaPlacar.executor": "Run",
     "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
@@ -111,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773081778571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lista001">
+      <option name="closed" value="true" />
+      <created>1773081935736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773081935736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="constructor e métodos" />
     <MESSAGE value="encapsulamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="encapsulamento" />
+    <MESSAGE value="Lista001" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista001" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
