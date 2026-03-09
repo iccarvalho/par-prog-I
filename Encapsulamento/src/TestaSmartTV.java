@@ -6,6 +6,12 @@ public class TestaSmartTV {
         tv1.setVolume(30);
         System.out.println("Volume atual: " + tv1.getVolume());
 
-        SmartTV tv2 = new SmartTV("Sansung", "Oled de 45 polegadas", 0);
+        SmartTV tv2 = new SmartTV("Samsung", "OLED de 45 polegadas", 0);
+        tv2.setConectado(true);
+        System.out.println(tv2.getConectado());
+        tv2.abrirYoutube();
+        tv2.aumentarVolume(40);
+        tv2.aumentarVolume(40);
+        tv2.diminuirVolume(10);
     }
 }
