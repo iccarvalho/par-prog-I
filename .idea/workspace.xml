@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="constructor e métodos">
+    <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="encapsulamento">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encapsulamento/src/SmartTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulamento/src/SmartTV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encapsulamento/src/TestaSmartTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulamento/src/TestaSmartTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/exercicios.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772480141488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="encapsulamento">
+      <option name="closed" value="true" />
+      <created>1773081778571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773081778571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="constructor e métodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor e métodos" />
+    <MESSAGE value="encapsulamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="encapsulamento" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
