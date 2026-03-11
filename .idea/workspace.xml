@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="Lista001">
-      <change afterPath="$PROJECT_DIR$/Lista002/Lista002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoParte/TodoParte.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -53,6 +54,7 @@
     "Application.TestaPlacar.executor": "Run",
     "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
+    "Application.TestaTodoParte.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/igcca/OneDrive/Documents/MeusProjetos/par-prog-I",
+    "last_opened_file_path": "D:/Usuários/26028/IdeaProjects/par-prog-I",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +85,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -95,6 +98,8 @@
       <updated>1771977930628</updated>
       <workItem from="1771977943312" duration="3300000" />
       <workItem from="1772582912234" duration="2580000" />
+      <workItem from="1773187167213" duration="866000" />
+      <workItem from="1773188048338" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="constructor e métodos">
       <option name="closed" value="true" />
