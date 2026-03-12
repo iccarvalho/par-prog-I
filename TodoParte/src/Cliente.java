@@ -47,9 +47,9 @@ public class Cliente {
     public String toString() {
         return "Cliente {" +
                 "\n  ID: " + this.ID +
-                "\n  nome: '" + this.nome +
-                "\n  CPF='" + this.CPF +
-                "\n  endereco: '" + this.endereco +
-                "\n }";
+                "\n  nome: " + this.nome +
+                "\n  CPF: " + this.CPF +
+                "\n  endereco: " + this.endereco +
+                "\n },";
     }
 }

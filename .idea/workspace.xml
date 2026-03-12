@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="Lista001">
-      <change afterPath="$PROJECT_DIR$/TodoParte/TodoParte.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoParte/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoParte/src/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoParte/src/TestaTodoParte.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/TestaTodoParte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,9 @@
     &quot;accountId&quot;: &quot;b8d86fb8-c551-4a6b-bcb1-4c17e33af4c1&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -55,14 +59,16 @@
     "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
     "Application.TestaTodoParte.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-25",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Usuários/26028/IdeaProjects/par-prog-I",
+    "last_opened_file_path": "C:/Users/26028/Documents/par-prog-I/TodoParte",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,14 +87,22 @@
       <recent name="D:\Usuários\26028\IdeaProjects\par-prog-I\exercicio\src" />
     </key>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
-      </set>
-    </attachedChunks>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lista002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lista002" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7c5d3a48-3d68-4257-ba30-0b042b8d8e5d" name="Changes" comment="" />
@@ -100,6 +114,7 @@
       <workItem from="1772582912234" duration="2580000" />
       <workItem from="1773187167213" duration="866000" />
       <workItem from="1773188048338" duration="2951000" />
+      <workItem from="1773354860388" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="constructor e métodos">
       <option name="closed" value="true" />
@@ -130,6 +145,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="constructor e métodos" />
