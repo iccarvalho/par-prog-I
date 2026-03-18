@@ -62,7 +62,7 @@ public class Pedido {
 
     public double calcularTotal(){
         double total = 0;
-        for(ItemPedido item : itensPedido){
+        for(ItemPedido item : this.itensPedido){
             total += item.getProduto().getPreco() * item.getQtde();
         }
         return total;

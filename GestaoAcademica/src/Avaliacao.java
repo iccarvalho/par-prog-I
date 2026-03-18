@@ -8,8 +8,8 @@ public class Avaliacao {
     public Avaliacao(){ this.questoes = new ArrayList<>(); }
 
     public Avaliacao(int ID, String nome){
-        setID(ID);
-        setNome(nome);
+        this.ID = ID;
+        this.nome = nome;
         this.questoes = new ArrayList<>();
     }
 

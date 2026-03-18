@@ -10,8 +10,12 @@ public class TestaAcademico {
 
         POO.criarAvaliacao(1, "Avaliação Semestral");
 
-        for (int i = 0; i < 3; i++) {
-            POO.getAvaliacoes().getFirst().adicionarQuestao(i+1, "Questão " + (i+1), 3.33);
+        Avaliacao  av = POO.getAvaliacao("Avaliação Semestral");
+
+        if (av != null) {
+            av.adicionarQuestao(1, "Questão 1", 3.33);
+            av.adicionarQuestao(2, "Questão 2", 3.33);
+            av.adicionarQuestao(3, "Questão 3", 3.33);
         }
 
         System.out.println(POO);

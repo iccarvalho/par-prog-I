@@ -5,12 +5,18 @@ public class ArCondicionado {
     private int temperatura;
     private boolean ligado;
 
-    public ArCondicionado(){}
+    public ArCondicionado(){
+        this.setMarca("Generics");
+        this.modelo = "Standard";
+        this.setTemperatura(24);
+        this.ligado = false;
+    }
 
-    public ArCondicionado(String marca, String modelo, int temperatura, boolean ligado){
-        setMarca(marca);
-        setModelo(modelo);
-        setTemperatura(temperatura);
+    public ArCondicionado(String marca, String modelo, int temperatura){
+        this.setMarca(marca);
+        this.modelo = modelo;
+        this.setTemperatura(temperatura);
+        this.ligado = false;
     }
 
     // Setters
@@ -22,20 +28,12 @@ public class ArCondicionado {
         }
     }
 
-    public void setModelo(String modelo){
-        this.modelo = modelo;
-    }
-
     public void setTemperatura(int temperatura){
         if(temperatura >= 16 && temperatura <= 30){
             this.temperatura = temperatura;
         } else{
             System.out.println("Temperatura fora da faixa!");
         }
-    }
-
-    public void setLigado(boolean ligado){
-        this.ligado = ligado;
     }
 
     // Getters
@@ -51,7 +49,7 @@ public class ArCondicionado {
         return this.temperatura;
     }
 
-    public boolean getLigado(){
+    public boolean isLigado(){
         return this.ligado;
     }
 
@@ -62,10 +60,27 @@ public class ArCondicionado {
     }
 
     public void ativarModoTurbo(){
-        if(verificarCompressor()){
-            setTemperatura(16);
-        } else{
-            System.out.println("Falha ao ativar o modo turbo!");
+        if(this.isLigado()) {
+            if (this.verificarCompressor()) {
+                setTemperatura(16);
+            } else {
+                System.out.println("Falha ao ativar o modo turbo!");
+            }
+        } else {
+            System.out.println("Você precisa ligar o ar-condicionado primeiro!");
+        }
+    }
+
+    public void ligar(){
+        this.ligado = true;
+        System.out.println("Ar-condicionado ligado!");
+    }
+
+    public void ajustarTemperatura(int novaTemp){
+        if(this.isLigado()){
+            setTemperatura(novaTemp);
+        } else {
+            System.out.println("Você precisa ligar o ar-condicionado primeiro!");
         }
     }
 

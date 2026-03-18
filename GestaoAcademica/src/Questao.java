@@ -6,9 +6,9 @@ public class Questao {
     public Questao(){}
 
     public Questao(int numero, String enunciado, double valor){
-        setNumero(numero);
-        setEnunciado(enunciado);
-        setValor(valor);
+        this.numero = numero;
+        this.enunciado = enunciado;
+        this.valor = valor;
 
     }
 

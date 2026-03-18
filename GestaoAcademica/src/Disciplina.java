@@ -12,9 +12,9 @@ public class Disciplina {
     }
 
     public Disciplina(int ID, String nome, String professor){
-        setID(ID);
-        setNome(nome);
-        setProfessor(professor);
+        this.ID = ID;
+        this.nome = nome;
+        this.professor = professor;
         this.alunos = new ArrayList<>();
         this.avaliacoes = new ArrayList<>();
     }
@@ -71,5 +71,14 @@ public class Disciplina {
         Avaliacao avaliacao = new Avaliacao(ID, nome);
         avaliacoes.add(avaliacao);
         System.out.println("Avaliação criada com sucesso!");
+    }
+
+    public Avaliacao getAvaliacao(String nome){
+        for(Avaliacao av : this.avaliacoes){
+            if(nome.equalsIgnoreCase(av.getNome())){
+                return av;
+            }
+        }
+        return null;
     }
 }

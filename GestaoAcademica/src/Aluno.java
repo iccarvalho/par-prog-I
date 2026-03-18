@@ -5,10 +5,10 @@ public class Aluno {
     public Aluno() {}
 
     public Aluno(int ID, String nome, int RA, String curso){
-        setID(ID);
-        setNome(nome);
-        setRA(RA);
-        setCurso(curso);
+        this.ID = ID;
+        this.nome = nome;
+        this.RA = RA;
+        this.curso = curso;
     }
 
     public void setNome(String nome) {
