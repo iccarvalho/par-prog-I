@@ -36,10 +36,17 @@ public class Desenvolvedor {
 
     @Override
     public String toString() {
-        return "Desenvolvedor{ " +
-                "nome: " + nome +
+        return "nome: " + nome +
                 ", linguagem: " + linguagem +
-                ", salarioBase: " + salarioBase +
-                " }";
+                ", salarioBase: " + salarioBase;
     }
+
+    public void codar(){
+        System.out.println("Desenvolvedor planeja e escreve código-fonte");
+    }
+
+    public double calcularBonus(){
+        return this.salarioBase * 0.05;
+    }
+
 }
