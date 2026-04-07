@@ -1,6 +1,6 @@
 package Lista1.ex001;
 
-public class Veiculo {
+public abstract class Veiculo {
     protected String marca, modelo;
     protected double velocidade;
 
@@ -43,11 +43,7 @@ public class Veiculo {
                 ", velocidade: " + this.velocidade + " km/h";
     }
 
-    public void mover() {
-        System.out.println("Veículo se movendo...");
-    }
+    public abstract void mover();
 
-    public void abastecer() {
-        System.out.println("Veículo reabastecendo...");
-    }
+    public abstract void abastecer();
 }
