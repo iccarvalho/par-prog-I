@@ -2,6 +2,7 @@ package ex001;
 
 public class FechaduraEletronica implements Autenticavel, DispositivoLigavel {
     private String senha;
+    private boolean trancado = true;
 
     public FechaduraEletronica(){}
 
@@ -31,11 +32,13 @@ public class FechaduraEletronica implements Autenticavel, DispositivoLigavel {
 
     @Override
     public void ligar(){
+        this.trancado = false;
         System.out.println("Porta destrancada...");
     }
 
     @Override
     public void desligar(){
+        this.trancado = true;
         System.out.println("Porta trancada...");
     }
 }

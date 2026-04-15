@@ -2,6 +2,7 @@ package ex001;
 
 public class TermostatoSmart implements DispositivoLigavel, SensorTemperatura {
     private double temperatura;
+    public boolean ativo = false;
 
     public TermostatoSmart(){}
 
@@ -20,12 +21,14 @@ public class TermostatoSmart implements DispositivoLigavel, SensorTemperatura {
 
     @Override
     public void ligar(){
+        this.ativo = true;
         System.out.println("Ligando termostato...");
-        this.temperatura = 16;
+        this.temperatura = 22.5;
     }
 
     @Override
     public void desligar(){
+        this.ativo = false;
         System.out.println("Desligando termostato...");
         this.temperatura = 0;
     }
