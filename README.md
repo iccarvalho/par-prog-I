@@ -1,2 +1,2 @@
 # par-prog-I
-Disciplina de Paradigmas de Programação I
+GestaoAcademica.Disciplina de Paradigmas de Programação I
