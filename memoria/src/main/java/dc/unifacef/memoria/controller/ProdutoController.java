@@ -21,7 +21,7 @@ public class ProdutoController {
     // ResponseEntity é um tipo de dado que retorna do controller para o Frontend
     @GetMapping // requisição pelo verbo GET
     public ResponseEntity<ArrayList<Produto>> consultar(){
-        return ResponseEntity.ok(service.consulta());
+        return ResponseEntity.ok(service.consultar());
     }
 
     @PostMapping
@@ -30,6 +30,25 @@ public class ProdutoController {
         // URI Uniform Resource Indentifier
         URI uri = URI.create("/produto/" + novo.getID());
         return ResponseEntity.created(uri).body(novo);
+    }
+
+    @DeleteMapping("/{ID}")
+    public ResponseEntity<Void> remover(@PathVariable Long ID){
+        if(service.remover(ID)) {
+            return ResponseEntity.noContent().build(); // sucesso - 204
+        } else {
+            return ResponseEntity.notFound().build(); // erro do cliente - 404
+        }
+    }
+
+    @PatchMapping("/{ID}")
+    public ResponseEntity<Produto> atualizar(@PathVariable Long ID, @RequestBody Produto novo) {
+        Produto resposta = service.atualizar(ID, novo);
+        if(resposta != null){
+            return ResponseEntity.ok(resposta);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
     }
 }
   

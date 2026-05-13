@@ -12,7 +12,7 @@ public class ProdutoService {
     private Long ID = 1L;
 
     // Consulta os produtos da lista
-    public ArrayList<Produto> consulta(){
+    public ArrayList<Produto> consultar(){
         return this.produtos;
     }
 
@@ -22,5 +22,24 @@ public class ProdutoService {
         ID++;
         this.produtos.add(produto);
         return produto;
+    }
+
+    // Remove um produto com id
+    public boolean remover(Long ID){
+        return this.produtos.removeIf(p -> p.getID().equals(ID));
+    }
+
+    // Atualiza um produto por id
+    public Produto atualizar(Long ID, Produto novo){
+        novo.setID(ID);
+        // percorrer para atualizar o produto
+        for (int i = 0; i < produtos.size(); i++) {
+            if(this.produtos.get(i).getID().equals(ID)){
+                // produto encontrado
+                this.produtos.set(i, novo); // atualiza
+                return novo;
+            }
+        }
+        return null; // produto não encontrado para atualizar
     }
 }
